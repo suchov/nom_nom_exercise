@@ -9,3 +9,10 @@
 .header-div > header {
   height: 60px;
 }
+
+.header-nav--logo {
+  display: block;
+  float: left;
+  height: 40px;
+  margin: 12px;
+}
