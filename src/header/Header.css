@@ -1,0 +1,11 @@
+.header-div {
+  background-color: #fff;
+  color: #818181;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-div > header {
+  height: 60px;
+}
