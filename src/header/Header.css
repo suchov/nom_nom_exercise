@@ -40,6 +40,14 @@ a > span {
   color: #bebebe;
 }
 
+a:hover{
+  color: #f06324;
+}
+
+a:hover > span {
+  color: #f06324;
+}
+
 .menu {
   float: right;
 }
@@ -68,6 +76,10 @@ a > span {
   padding-left: 20px;
   /* opacity: 0; */
   transition: all 0.5s ease-out;
+}
+
+.dropdown-content > a:hover {
+  color: #f06324;
 }
 
 .dropdown-content a {
