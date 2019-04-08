@@ -4,7 +4,7 @@
   top: 0;
   width: 100%;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
-  height: 60px;
+  height: 64px;
 }
 
 .header-nav--logo {
@@ -25,10 +25,19 @@ li {
 }
 
 li > a {
-  margin: 10px;
-  font-weight: 400;
   text-decoration: none;
   color: #444;
+  display: block;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+li:last-child {
+  padding-right: 20px;
+}
+
+a > span {
+  color: #bebebe;
 }
 
 .menu {

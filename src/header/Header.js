@@ -13,16 +13,25 @@ const  Header = () => {
         </a>
         <ul className="menu">
           <li className="dropdown">
-            <a href="#/">Dogs</a>
-            <span className="down-arrow">▾</span>
+            <a href="#/">
+              Dogs
+              <span className="down-arrow">▾</span>
+            </a>
+            
           </li>
           <li className="dropdown">
-            <a href="#/">Cats</a>
-            <span className="down-arrow">▾</span>
+            <a href="#/">
+              Cats
+              <span className="down-arrow">▾</span>
+            </a>
+            
           </li>
           <li className="dropdown">
-            <a href="#/">Learn</a>
-            <span className="down-arrow">▾</span>
+            <a href="#/">
+              Learn
+              <span className="down-arrow">▾</span>
+            </a>
+            
           </li>
           <li>
             <a href="#/">Log in</a>
