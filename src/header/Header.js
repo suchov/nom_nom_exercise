@@ -17,21 +17,37 @@ const  Header = () => {
               Dogs
               <span className="down-arrow">▾</span>
             </a>
-            
+            <div class="dropdown-content">
+              <a href="/fresh-dog-food-recipes" class="">Recipes</a>
+              <a href="/site/products/dog-food-variety-pack" class="">Variety Pack</a>
+              <a href="/site/products/dog-treats/" class="">Treats</a>
+              <a href="/site/products/dog-supplements/" class="">Supplements</a>
+              <a href="/site/products/microbiome/" class="">Microbiome</a>
+            </div>
           </li>
           <li className="dropdown">
             <a href="#/">
               Cats
               <span className="down-arrow">▾</span>
             </a>
-            
+            <div class="dropdown-content">
+              <a href="/fresh-cat-food-recipes" class="">Recipes</a>
+              <a href="/site/products/cat-food-variety-pack" class="">Variety Pack</a>
+              <a href="/site/products/dog-treats/?pet_type=CAT" class="">Treats</a>
+              <a href="/site/products/cat-supplements/" class="">Supplements</a>
+              <a href="/site/products/microbiome/?pet_type=CAT" class="">Microbiome</a>
+            </div>
           </li>
           <li className="dropdown">
             <a href="#/">
               Learn
               <span className="down-arrow">▾</span>
             </a>
-            
+            <div class="dropdown-content">
+              <a href="/site/how-it-works" class="">Our approach</a>
+              <a href="/learn/success-stories" class="">Success stories</a>
+              <a href="/learn" class="">Articles</a>
+            </div>
           </li>
           <li>
             <a href="#/">Log in</a>
