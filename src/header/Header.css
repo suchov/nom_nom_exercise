@@ -24,7 +24,7 @@
   float: left;
 }
 
-li > a {
+.menu a {
   text-decoration: none;
   color: #444;
   display: block;
@@ -58,7 +58,7 @@ a:hover> .down-arrow {
   float: right;
 }
 
-.cta-button {
+a.cta-button {
   background-color: #f06324;
   border-radius: 2px;
   color: #fff;
