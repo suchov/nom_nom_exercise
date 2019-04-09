@@ -13,13 +13,13 @@
   margin: 12px;
 }
 
-ul {
+.menu {
   margin: 0;
   padding: 0;
   background-color: #fff;
 }
 
-li {
+.menu > li {
   list-style: none;
   float: left;
 }
@@ -32,25 +32,25 @@ li > a {
   text-decoration: none;
 }
 
-li:last-child {
+.menu > li:last-child {
   padding-right: 20px;
 }
 
-li:last-child > a:hover {
+.menu > li:last-child > a:hover {
   color: #fff;
 }
 
-a > span {
+.down-arrow {
   padding-left: 0.2em;
   color: #bebebe;
 }
 
-a:hover{
+.header-div a:hover {
   cursor: pointer;
   color: #f06324;
 }
 
-a:hover > span {
+a:hover> .down-arrow {
   color: #f06324;
 }
 
