@@ -36,6 +36,10 @@ li:last-child {
   padding-right: 20px;
 }
 
+li:last-child > a:hover {
+  color: #fff;
+}
+
 a > span {
   color: #bebebe;
 }
@@ -63,19 +67,21 @@ a:hover > span {
 }
 
 .dropdown-content {
+  visibility: hidden;
   border-bottom: 1px solid #eee;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   padding: 20px;
   position: absolute;
   box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.2);
-
   background-color: #fff;
-  /* max-height: 0; */
   min-width: 180px;
   padding-left: 20px;
-  /* opacity: 0; */
   transition: all 0.5s ease-out;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
 }
 
 .dropdown-content > a:hover {
@@ -89,4 +95,20 @@ a:hover > span {
   color: #444;
   display: block;
   text-decoration: none;
+}
+
+/* Don't forget that you have one media query */
+@media screen and (min-width: 800px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+.navicon {
+  background: #444;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
 }
