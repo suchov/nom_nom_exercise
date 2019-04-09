@@ -1,3 +1,18 @@
+h1 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.bold, b {
+  font-weight: 600;
+}
+
 .header-div {
   background-color: #fff;
   color: #818181;
@@ -50,7 +65,7 @@
   color: #f06324;
 }
 
-a:hover> .down-arrow {
+a:hover > .down-arrow {
   color: #f06324;
 }
 
@@ -110,11 +125,42 @@ a.cta-button {
   }
 }
 
-.navicon {
+.menu-icon .navicon {
   background: #444;
   display: block;
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
   width: 18px;
+}
+
+/* Calculator container */
+.nutrient-calculator-container {
+  padding-top: 100px;
+  position: relative;
+}
+
+.nutrient-calculator-container img.chicken-bowl {
+  position: fixed;
+  right: 3vw;
+  top: 100px;
+  width: 40vw;
+}
+
+.nutrient-calculator-container .nutrient-content {
+  margin: 0px 10% 0px 10%;
+  max-width: 500px;
+  min-height: 600px;
+}
+
+img.justin-photo-circle {
+  border-radius: 80px;
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 80px;
+}
+
+.color-teal {
+  color: #23ac9b;
 }
