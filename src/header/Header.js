@@ -69,7 +69,9 @@ const  Header = () => {
             affected by many factors, including moisture, fiber and minerals.
           </p>
           <p>Use this calculator to get a more accurate picture of how another dog food brand compares with NomNomNow.</p>
+
           <div id="react-container-nutrient-calculator">
+
             <form>
               <div className="container-flex padding-bottom-small">
                 <div className="padding-bottom-small padding-right-small">
@@ -85,9 +87,7 @@ const  Header = () => {
                   </select>
                 </div>
               </div>
-                <div className="padding-bottom-small">
-                  <b>Such</b>'s nutrient info:
-                </div>
+              <div class="padding-bottom-small">Dog food brand's nutrient info:</div>
                 <div className="container-flex padding-bottom-small">
                   <div className="padding-bottom-small padding-right-small">
                     <label className="label">% protein (min.)</label><input name="protein" type="number" min="1" max="60" value="234" />
@@ -116,7 +116,15 @@ const  Header = () => {
                   <div className="results-container">
                     <div className="results padding-bottom">
 
-                      <div><h3 className="brand color-light-gray">sfaf</h3><label className="label color-light-gray">Protein</label><h1 className="color-light-gray">9731</h1><label className="label color-light-gray">Fat</label><h1 className="color-light-gray">10041</h1><label className="label color-light-gray">Carbohydrate</label><h1 className="color-light-gray">0</h1></div>
+                      <div>
+                        <h3 className="brand color-light-gray">sfaf</h3>
+                        <label className="label color-light-gray">Protein</label>
+                        <h1 className="color-light-gray">9731</h1>
+                        <label className="label color-light-gray">Fat</label>
+                        <h1 className="color-light-gray">10041</h1>
+                        <label className="label color-light-gray">Carbohydrate</label>
+                        <h1 className="color-light-gray">0</h1>
+                      </div>
 
                       <div>
                         <img src="https://www.nomnomnow.com/images/logo_utensils.svg" className="logo" alt="utensils" />
@@ -130,7 +138,9 @@ const  Header = () => {
                       </div>
 
                     </div>
-                    <div className="centered padding-bottom">Learn about <a href="/learn/pet-expert/understanding-dog-food-nutrients" target="_blank">the role of protein, fat, and carbs</a> in a dog's diet.</div>
+                    <div className="centered padding-bottom">
+                      Learn about <a href="/learn/pet-expert/understanding-dog-food-nutrients" target="_blank">the role of protein, fat, and carbs</a> in a dog's diet.
+                    </div>
                     <div className="centered color-light-gray text-smallest">* All units above are given in grams per 1000 calories (g/kcal).</div>
                   </div>
 
@@ -147,6 +157,7 @@ const  Header = () => {
                 </div>
                 </span>
             </form>
+
           </div>
         </div>
       </div>
